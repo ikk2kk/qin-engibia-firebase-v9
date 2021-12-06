@@ -51,3 +51,4 @@ export const InputForm = forwardRef<HTMLInputElement, Props>((props, ref) => {
     </div>
   );
 });
+InputForm.displayName = "InputForm"
